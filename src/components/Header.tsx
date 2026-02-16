@@ -17,7 +17,7 @@ const Header = () => {
         {/* Top bar */}
         <div className="bg-primary px-3 py-1.5 text-center">
           <p className="text-primary-foreground text-[10px] font-medium tracking-wider uppercase">
-            Free shipping on orders above ₹999 | Use code SHIVAM25
+            Free shipping on orders above ₹999 | Use code DRESSCODE25
           </p>
         </div>
 
@@ -33,7 +33,7 @@ const Header = () => {
           </div>
 
           <Link to="/" className="text-center">
-            <h1 className="font-script text-2xl font-bold text-foreground leading-none">Shivam</h1>
+            <h1 className="font-script text-2xl font-bold text-foreground leading-none">Dress Code</h1>
             <p className="text-[8px] tracking-[3px] uppercase text-muted-foreground font-medium">Kapad & Readymade</p>
           </Link>
 
@@ -81,7 +81,7 @@ const Header = () => {
           <div className="absolute left-0 top-0 bottom-0 w-[75%] bg-card animate-slide-up overflow-y-auto">
             <div className="p-4 border-b border-border flex items-center justify-between bg-primary">
               <div>
-                <h2 className="font-script text-xl text-primary-foreground">Shivam</h2>
+                <h2 className="font-script text-xl text-primary-foreground">Dress Code</h2>
                 <p className="text-[8px] tracking-[2px] uppercase text-primary-foreground/80">Kapad & Readymade</p>
               </div>
               <button onClick={() => setMenuOpen(false)}>
